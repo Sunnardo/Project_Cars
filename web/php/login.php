@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 // Verificar si el usuario tiene la sesión abierta
 if (!isset($_SESSION['iduser'])) {
     // Si no hay sesión, redirigir a la página de login
-    header("Location: ../html/index.html");
+    header("Location: ../html/home.html");
     exit;
 }
 

@@ -8,7 +8,7 @@
 }
 * {
     margin: 0;
-    padding: 0;
+    padding: 0; 
     box-sizing: border-box;
 }
 body {
@@ -31,7 +31,10 @@ input#password  {
     text-align: center;
     width: 90%;
 }
-
+#ouseven {
+    image-rendering: auto;  
+    margin: 10px;
+}
 #nocompte {
 
     justify-content: center;
@@ -43,6 +46,13 @@ input#password  {
     margin-top: 10px;
     text-align: center;
     padding: 3%;
+
+}
+
+#welcome {
+    justify-content: center;
+    text-align: center;
+    margin-top: 20%;
 
 }
 header {
