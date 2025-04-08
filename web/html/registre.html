@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Car</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    </head>
+<body>
+    <div class="container">
+        <h2>Formulario de Registro</h2><br>
+        
+            <form action="../php/register.php" method="POST">
+                <label for="usuari">Usuari:</label>
+                <input type="text" id="usuari" name="usuari" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="firstname">First name:</label>
+                <input type="text" id="fstname" name="fstname" required><br><br>
+
+                <label for="lastname">Last name:</label>
+                <input type="text" id="lstname" name="lstname" required><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+
+                <label for="verify_password">Retype password:</label>
+                <input type="password" id="verify_password" name="verify_password" required><br><br>
+
+                <button type="submit" id="nouRegistre">Submit</button>
+    </form> 
+    </div>
+    <footer>
+        <p>&copy; 2025 Car | Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
